@@ -1,0 +1,12 @@
+.bloc{
+   display: flex; 
+   margin-left: 123px;
+   padding: 20px;
+}
+.textcorrdoner{
+margin-top: 6px;
+margin-left: 20px;
+}
+#link{
+    color: black;
+}

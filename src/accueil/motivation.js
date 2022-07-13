@@ -5,8 +5,7 @@ export default function Motivation(){
 <p>Développeuse diplômée en Business Computing
 spécialité E-business à l'Ecole Supérieure des
 Sciences Économiques et Commerciales Tunis
-(ESSECT), Montfleury . Je suis à la recherche d'un
-poste dans le domaine de développement. Je
+(ESSECT), Montfleury . Je
 suis une personne dynamique, rapide à
 apprendre, motivante et à adaptable avec toutes
 innovations.
@@ -14,3 +13,5 @@ innovations.
         </div>
     )
 }
+//Je suis à la recherche d'un
+//poste dans le domaine de développement. 

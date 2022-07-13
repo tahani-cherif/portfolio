@@ -30,7 +30,7 @@ export default function Competence(){
              <CircularProgressWithLabel value="60" nom="Wordpress"/>
              <CircularProgressWithLabel value="70" nom="Wix"/>
              <CircularProgressWithLabel value="80" nom="Android Studio"/>
-             <CircularProgressWithLabel value="50" nom="POwer BI"/>
+             <CircularProgressWithLabel value="50" nom="Power BI"/>
               </div>
     </div>)
 }

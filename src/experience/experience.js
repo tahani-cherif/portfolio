@@ -6,11 +6,15 @@ import ".//experience.css"
                 <li>
                <b> Durée:1</b> février au 30 avril 2022
                 </li>
-                <p className="disc">Stage en développement mobile au StartDevelopment .</p>
+                <p className="disc">Stage en développement mobile au StartDevelopment.</p>
                 <li>
                <b> Durée :</b> Le mois du juillet 2021 
                 </li>
-                <p  className="disc">Stage en Blockchain au Centre D'innovation .</p>
+                <p  className="disc">Stage en Blockchain au Centre D'innovation.</p>
+                <li>
+               <b> Durée :</b> Travail actuel
+                </li>
+                <p  className="disc">Poste de Développeur Full Stack chez WAZOLAB.</p>
              </ul>
          </div>)
   }

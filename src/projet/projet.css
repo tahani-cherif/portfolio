@@ -1,0 +1,62 @@
+.pro{
+    margin-top: 105px;
+    background-color: white;
+    border-radius: 14px;
+    margin-left: 20px;
+    margin-right: 20px;}
+.titre{
+    padding-top: 28px;
+    font-size: 24px;
+    font-style: revert;
+    font-family: sans-serif;
+    color: #2B7CD3;
+}
+.boxprojet{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 249px;
+    padding: 20px;
+}
+.textprojet{
+    margin-right: 288px;
+    font-size: 15px;
+    font-style: revert;
+    font-family: auto;
+}
+.ligne1{
+    margin-left: 351px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.continue{
+    display: flex;
+    justify-content: space-between;
+}
+.formulaire{
+    margin-right: 245px;
+    margin-top: 13px;
+}
+input{
+    border-radius: 4px;
+    width: 316px;
+    height: 20px;
+    margin-left: 30px;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    border-color: #2B7CD3;
+}
+.ligneform{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+button{
+    background-color: #2B7CD3;
+    border-color: #2B7CD3;
+    color: white;
+    border-radius: 3px;
+    width: 106px;
+    height: 35px;
+}

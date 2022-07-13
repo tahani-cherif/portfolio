@@ -1,0 +1,18 @@
+.comp{
+    margin-top: 61px;
+    background-color: white;
+    border-radius: 14px;
+    margin-left: 20px;
+    margin-right: 20px;}
+.titre{
+    padding-top: 28px;
+    font-size: 24px;
+    font-style: revert;
+    font-family: sans-serif;
+    color: #2B7CD3;
+}
+.block{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}

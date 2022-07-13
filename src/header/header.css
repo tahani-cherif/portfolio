@@ -1,0 +1,17 @@
+.navbar{ 
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-right: 366px;
+    margin-left: 363px;
+}
+.box{
+    background-color: white;
+    border-radius: 14px;
+    margin-left: 18px;
+    margin-right: 20px;
+    margin-top: 19px;
+}
+.link{
+    color: #2B7CD3;
+}

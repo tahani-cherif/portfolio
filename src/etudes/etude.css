@@ -1,0 +1,28 @@
+.textetude{
+    padding-top: 17px;
+    font-size: 24px;
+    font-style: revert;
+    font-family: sans-serif;
+    color: #2B7CD3;
+}
+li{
+    color: #2B7CD3;
+    text-align: justify;
+}
+.parg{
+    text-align: justify;
+}
+#lycee{
+    width: 275px;  
+}
+ul{
+    padding: 35px;
+}
+.etude{
+    background-color: white;
+    width: 96%;
+    margin-right: -655px;
+    border-radius: 14px;
+    /* margin-left: 88px; */
+    margin-bottom: -48px;
+}

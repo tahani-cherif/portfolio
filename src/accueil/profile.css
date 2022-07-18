@@ -1,12 +1,10 @@
-img{
+.photo{
     width: 169px;
     margin-top: 35px;
     margin-left: -319px;
 }
 .profil{
     background-color: white;
-    /* margin-right: 914px; */
-    /* margin-left: 16px; */
     width: 93%;
     border-radius: 14px;
     margin-right: 98px;
@@ -27,4 +25,17 @@ img{
 }
 a{
     text-decoration:none; 
+}
+@media (max-width: 768px){
+    .photo{
+        width: 119px;
+        margin-left: 13px;
+    }
+    .text{
+        margin-top: 26px;
+        margin-left: 13px;
+    }
+    .profil{
+        width: 512px;
+    }
 }

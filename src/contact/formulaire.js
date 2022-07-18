@@ -1,3 +1,4 @@
+import './contact.css'
  import {AiOutlineUser} from 'react-icons/ai'
  import {ImMail4} from 'react-icons/im'
  import {GoMailRead} from 'react-icons/go'

@@ -10,3 +10,12 @@ margin-left: 20px;
 #link{
     color: black;
 }
+
+@media (max-width: 768px){
+    .formulaire{
+        margin-top: 422px;
+    }
+    input{
+        
+    }
+  }

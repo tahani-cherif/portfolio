@@ -4,6 +4,7 @@
     padding: 20px;
     margin-right: 366px;
     margin-left: 363px;
+    
 }
 .box{
     background-color: white;
@@ -14,4 +15,18 @@
 }
 .link{
     color: #2B7CD3;
+    @media (max-width: 768px){
+
+    }
+}
+@media (max-width: 768px){
+    .navbar{
+    margin-left: 0px;
+    }
+    .box{
+        width: 532px;
+    }
+    .link{
+        margin-right: 15px;
+    }
 }

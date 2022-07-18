@@ -30,7 +30,6 @@ export default function NavTabs() {
     return (
         <div className='box'>
       <Box  className="navbar">
-       
         <Link to="/#accueil" className="link"
       spy={true}
       smooth={true}

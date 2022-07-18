@@ -26,3 +26,12 @@ ul{
     /* margin-left: 88px; */
     margin-bottom: -48px;
 }
+
+@media (max-width: 768px){
+    .etude{
+        margin-left: -140px;
+        width: 503px;
+        margin-top: -29px;
+    }
+  }
+  

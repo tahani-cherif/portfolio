@@ -16,3 +16,10 @@
     margin-left: 750px;
     width: 100%;
 }
+@media (max-width: 768px){
+    .exp{
+        margin-left: -140px;
+        width: 503px;
+        margin-top: 96px;
+    }
+  }

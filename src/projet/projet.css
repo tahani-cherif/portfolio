@@ -1,3 +1,6 @@
+img{
+    margin-left: -256px;
+}
 .pro{
     margin-top: 105px;
     background-color: white;
@@ -63,3 +66,30 @@ button{
 .href{
     margin-right: 306px;
 }
+
+@media (max-width: 768px){
+    .continue{
+        display: flow-root;
+    }
+    .ligneform{
+        display: flow-root; 
+    }
+    .ligne1{
+        display: flow-root;
+        margin-left: 252px;
+    }
+    .boxprojet{
+        display: flow-root;
+    }
+    .textprojet{
+        margin-left: -97px;
+        width: 193px;
+    }
+    .href{
+        margin-left: -124px;
+        display: flex;
+    }
+    .pro{
+        width: 509px;
+    }
+  }

@@ -46,3 +46,9 @@ body{
   margin-left: 166px;
   margin-top: 65px;
 }
+
+@media (max-width: 768px){
+  .etudeexp{
+    display: flow-root;
+  }
+}

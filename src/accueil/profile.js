@@ -4,7 +4,7 @@ import {SiGmail} from 'react-icons/si'
 import {MdPictureAsPdf} from 'react-icons/md'
 export default function Profile(){
     return(<div className="profil">
-        <img src="./Sans titre.png"/>
+        <img className="photo"src="./Sans titre.png"/>
         <div className="text">
         <p>TAHANI CHERIF</p>
         <p>Développeuse Web et Mobile</p>

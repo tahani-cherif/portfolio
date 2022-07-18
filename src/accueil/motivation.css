@@ -1,7 +1,5 @@
 .motivation{
-      /* margin-top: -248px; */
       width: 86%;
-      /* margin-left: 523px; */
       background-color: white;
       padding: 32px;
       border-radius: 14px;
@@ -14,7 +12,15 @@
     display: flex;
     justify-content: space-between;
     margin-top: 70px;
-    /* padding: 32px; */
     margin-left: 20px;
     margin-right: 20px;
+}
+@media (max-width: 768px){
+   .acc{
+    display: flow-root;
+    }
+    .motivation{
+        width: 448px;
+    }
+   
 }

@@ -17,7 +17,7 @@ export default function Mainprojet(){
             <Projet src="./port.jpeg" nom="Développement d'un portfolio" taill="446px" 
             git="https://github.com/tahani-cherif/portfolio" colorgit='#2B7CD3' colorpdf='#808080' coloryout='#808080'/>
             <Projet src="./projetnestjs.png" nom="CRUD avec Nest js et ORM TypeORM"
-             taill="479px" colorgit='#2B7CD3' colorpdf='#808080' coloryout='#808080' git="https://github.com/tahani-cherif/mini-projet-nest-js"/>
+             taill="471px" colorgit='#2B7CD3' colorpdf='#808080' coloryout='#808080' git="https://github.com/tahani-cherif/mini-projet-nest-js"/>
             </div>
             <div className='boxprojet'>
             <Projet src="./projetexpress.png" nom="CEUD avec express js et ORM sequelize" taill="446px" 

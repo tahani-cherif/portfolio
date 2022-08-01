@@ -25,16 +25,16 @@ import emailjs from 'emailjs-com'
         <div className='formulaire'>
             <form onSubmit={sendEmail}>
           <div className='ligneform'>
-            <AiOutlineUser    color='#2B7CD3' font-size="34px"     margin-bottom="-8px"/>
-            <input type="text" required placeholder='Nom  Prenom ' value={nomprenom} onChange={(e)=>setNomPrenom(e.target.value)} name='name'/>
+            <AiOutlineUser    color='#2B7CD3' font-size="34px"     margin-bottom="-8px" className='iconform'/>
+            <input type="text"  className="input" required placeholder='Nom  Prenom ' value={nomprenom} onChange={(e)=>setNomPrenom(e.target.value)} name='name'/>
            </div>
            <div className='ligneform'>
-            <ImMail4    color='#2B7CD3' font-size="34px"     margin-bottom="-8px"  />
-            <input type="email" required placeholder='Adress mail ' value={mail} onChange={(e)=>setMail(e.target.value)} name='mail'/>
+            <ImMail4    color='#2B7CD3' font-size="34px"     margin-bottom="-8px" className='iconform' />
+            <input type="email"  className="input" required placeholder='Adress mail ' value={mail} onChange={(e)=>setMail(e.target.value)} name='mail'/>
            </div>
            <div className='ligneform'>
-            <GoMailRead    color='#2B7CD3' font-size="34px"     margin-bottom="-8px"  />
-            <input type="text" required placeholder='Message ' value={messg} onChange={(e)=>setMessg(e.target.value)} name='msg'/>
+            <GoMailRead    color='#2B7CD3' font-size="34px"     margin-bottom="-8px" className='iconform' />
+            <input type="text" className="input" required placeholder='Message ' value={messg} onChange={(e)=>setMessg(e.target.value)} name='msg'/>
            </div>
            <button type='submit'>Envoyer</button>
            

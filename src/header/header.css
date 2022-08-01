@@ -15,18 +15,45 @@
 }
 .link{
     color: #2B7CD3;
-    @media (max-width: 768px){
-
-    }
 }
 @media (max-width: 768px){
     .navbar{
     margin-left: 0px;
     }
+    .menu{
+        display: flex;
+       
+    }
     .box{
-        width: 532px;
+        width: 514px;
+        height: 62px;
     }
     .link{
         margin-right: 15px;
+    }
+    .title{
+        margin-top: -4px;
+        color: #2B7CD3;
+        margin-left: 24px;
+    }
+    .menu-mobile{
+        position: absolute;
+        
+        margin-top: 8px;
+    }
+    .navigation-menu {
+        list-style: none;
+        background-color: #F2F3F4;
+        border-radius: 20px;
+        padding: 18px;
+    }   
+    .navigation-menu li {
+        margin-bottom: 5px;
+    }
+    .navigation-menu li:hover{
+       background-color: white;
+       border-radius: 12px;
+       padding-left: 10px;
+       
     }
 }

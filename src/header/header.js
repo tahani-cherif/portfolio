@@ -1,91 +1,100 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
-import Tabs from '@mui/material/Tabs';
-import Tab from '@mui/material/Tab';
+import {AiOutlineMenu} from 'react-icons/ai'
 import './/header.css'
-import Competence from '../competance/competance';
-import Experience from '../experience/experience';
-import { useNavigate } from 'react-router-dom';
-//import { Link} from "react-scroll";
 import { NavHashLink as Link } from 'react-router-hash-link';
-import { color } from '@mui/system';
-function LinkTab(props) {
-    return (
-      <Tab
-        component="a"
-        onClick={(event) => {
-          event.preventDefault();
-        }}
-        {...props}
-      />
-    );
-  }
+
 export default function NavTabs() {
-    const [item,setItem]=React.useState(false)
-    const [value, setValue] = React.useState(0);
-    const handleChange = (event, newValue) => {
-      setValue(newValue);
-    };
-  //onClick={() => navigate('/Compretance')}  
+    const isMobile = window.innerWidth <= 768;
+    const [etatmenu,setEtatmenu]=React.useState(false)
+     console.log(etatmenu)
     return (
         <div className='box'>
+        {
+          isMobile ?
+          <Box  className="navbar" id="mobile" >
+            <div className='menu'>
+          <AiOutlineMenu color='#2B7CD3' onClick={()=>{etatmenu ? setEtatmenu(false) :setEtatmenu(true)}}/>
+           <p className='title'>Menu</p>
+           </div>
+           {
+            etatmenu ?
+            <div className='menu-mobile'>
+            <ul className='navigation-menu'>
+            <Link to="/#accueil" 
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={1000}>
+            <li  onClick={()=>{ setEtatmenu(false) }}>Accueil</li></Link>
+            <Link to="/#competence" 
+             spy={true}
+             smooth={true}
+             offset={-70}
+             duration={1000}>
+             <li onClick={()=>{ setEtatmenu(false) }}>Compétences</li></Link>
+            <Link to="/#etude" 
+             spy={true}
+             smooth={true}
+             offset={-70}
+             duration={1000} >
+            <li onClick={()=>{ setEtatmenu(false) }}>Etudes</li></Link>
+            <Link to="/#experience" 
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={1000} >
+            <li onClick={()=>{ setEtatmenu(false) }}>Expériences professionnelles</li></Link>
+           <Link to="/#projet" 
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={1000} >
+            <li onClick={()=>{ setEtatmenu(false) }}>Portfolio</li></Link>
+          <Link to="/#contact" 
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={1000} >
+            <li onClick={()=>{ setEtatmenu(false) }}>Contact</li></Link>
+            </ul>
+           </div>
+           :null
+           }
+          </Box>
+          :
       <Box  className="navbar">
         <Link to="/#accueil" className="link"
       spy={true}
       smooth={true}
       offset={-70}
-      duration={1000} onClick={()=>setItem(true)} style={item==true ?{
-        color:"",
-      }:{}}>Accueil</Link>
+      duration={1000} >Accueil</Link>
        <Link to="/#competence" className="link"
       spy={true}
       smooth={true}
       offset={-70}
-      duration={1000} onClick={()=>setItem(true)} style={item==true ?{
-        color:"",
-      }:{}}>Compétences</Link>
+      duration={1000}>Compétences</Link>
        <Link to="/#etude" className="link"
       spy={true}
       smooth={true}
       offset={-70}
-      duration={1000} onClick={()=>setItem(true)} style={item==true ?{
-        color:"",
-      }:{}}>Etudes</Link>
+      duration={1000} >Etudes</Link>
        <Link to="/#experience" className="link"
       spy={true}
       smooth={true}
       offset={-70}
-      duration={1000} onClick={()=>setItem(true)} style={item==true ?{
-        color:"",
-      }:{}}>Expériences professionnelles</Link>
+      duration={1000} >Expériences professionnelles</Link>
        <Link to="/#projet" className="link"
       spy={true}
       smooth={true}
       offset={-70}
-      duration={1000} onClick={()=>setItem(true)} style={item==true ?{
-        color:"",
-      }:{}}>Portfolio</Link>
+      duration={1000} >Portfolio</Link>
        <Link to="/#contact" className="link"
       spy={true}
       smooth={true}
       offset={-70}
-      duration={1000} onClick={()=>setItem(true)} style={item==true ?{
-        color:"",
-      }:{}}>Contact</Link>
-      
-      </Box>
-   
-      </div>
+      duration={1000} >Contact</Link>
+      </Box>}
+    </div>
     );
   }
-
-  /*
-   <Tabs value={value} onChange={handleChange} aria-label="nav tabs example">
-    <LinkTab label="Accueil" href="/"/>
-          <LinkTab label="Compétences"  />
-          <LinkTab label="Etudes" />
-          <LinkTab label="Expériences professionnelles"  />
-          <LinkTab label="Portfolio"  />
-        <LinkTab  label="Contact"></LinkTab>
-          </Tabs>
-        */

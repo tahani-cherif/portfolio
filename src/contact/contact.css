@@ -15,7 +15,15 @@ margin-left: 20px;
     .formulaire{
         margin-top: 422px;
     }
-    input{
-        
+    .input{
+        margin-left: 124px;
+    }
+    .iconform{
+        margin-right:35px ;
+        margin-bottom:-36px
+    }
+    button{
+        margin-left: 215px;
+        margin-bottom: 36px;
     }
   }

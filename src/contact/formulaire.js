@@ -42,7 +42,8 @@ import emailjs from 'emailjs-com'
             ret ? <Alert className='success-pop' severity="success">
                     <AlertTitle>Succès</AlertTitle>
                       Message envoyer !
-                 </Alert>:null
+                 </Alert>
+        :null
            }
            </form>
        </div>)

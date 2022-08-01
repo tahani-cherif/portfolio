@@ -10,19 +10,26 @@ export default function Mainprojet(){
            <Projet src='./youtube.png' nom='Clonage Youtube avec Rect js' git='https://github.com/tahani-cherif/projet-web' 
            pdf='./Clonage Youtube avec React.pdf' taill="458px" colorgit='#2B7CD3' colorpdf='#2B7CD3' coloryout='#808080' />
            <Projet src='./mobile.png' nom='Application mobile pour les nom voyant et malvoyant' taill="113px" 
-           git='https://github.com/tahani-cherif/App-PFE' pdf='./Présentation-PFE.pdf'
-           colorgit='#2B7CD3' colorpdf='#2B7CD3' coloryout='#808080'/>
+           git='https://github.com/tahani-cherif/App-PFE' pdf='./Présentation-PFE.pdf' href="https://drive.google.com/file/d/165W64XhC0OBJYxIShiLm7h6D_b2qi7SV/view?usp=sharing"
+           colorgit='#2B7CD3' colorpdf='#2B7CD3' coloryout='#2B7CD3'/>
+            </div>
+            <div className='boxprojet'>
+            <Projet src="./projetnestjs.png" nom="CRUD avec Nest js et ORM TypeORM"
+             taill="489px" colorgit='#2B7CD3' colorpdf='#808080' coloryout='#808080' git="https://github.com/tahani-cherif/mini-projet-nest-js"/>
+            <Projet src="./projetexpress.png" nom="CEUD avec express js et ORM sequelize" taill="446px" 
+            git="https://github.com/tahani-cherif/mini-projet-express" coloryout='#808080' colorpdf='#808080' colorgit='#2B7CD3'/>
             </div>
             <div className='boxprojet'>
             <Projet src='./hrc.jpg' nom='Création d’une site web dans le cadre d’informer , communiquer et sensibiliser' 
-            taill="345px" href="https://youtu.be/yR25V80yMgM"  pdf='./harcèlement sexuelle.pdf'
-            colorgit='#808080' colorpdf='#2B7CD3' coloryout='#2B7CD3'/>
+            taill="345px" href="https://youtu.be/yR25V80yMgM"  pdf='./harcèlement sexuelle.pdf' git="https://github.com/tahani-cherif/Hope-WebSite"
+            colorgit='#2B7CD3' colorpdf='#2B7CD3' coloryout='#2B7CD3'/>
             <Projet src='./site.jpg' nom="Création d'une site web pour un club robotique d'enfant" taill="345px"
-             pdf='php.pdf' href="https://youtu.be/09KtDCeutbM" colorgit='#808080' colorpdf='#2B7CD3' coloryout='#2B7CD3'/>
+             pdf='php.pdf' href="https://youtu.be/09KtDCeutbM" git="https://github.com/tahani-cherif/Robotics-Club-WebSite-PHP"
+             colorgit='#2B7CD3' colorpdf='#2B7CD3' coloryout='#2B7CD3'/>
             </div>
             <div className='boxprojet'>
             <Projet src="./python.png" nom="Développement d'un plan de décision avec pygrametl (ETL python ) et power BI"
-             taill="489px" colorgit='#808080' colorpdf='#808080' coloryout='#808080'/>
+             taill="489px" colorgit='#2B7CD3' colorpdf='#808080' coloryout='#808080' git="https://github.com/tahani-cherif/D-veloppement-d-un-plan-de-d-cision-avec-pygrametl-ETL-python-et-power-BI"/>
             <Projet src="./petshop.png" nom="Développement d'un site web marchand (Animalerie) avec Wix" taill="446px" 
             href="https://youtu.be/iJ2heZGCqvQ" colorgit='#808080' colorpdf='#808080' coloryout='#2B7CD3'/>
             </div>

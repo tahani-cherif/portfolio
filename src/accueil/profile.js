@@ -12,7 +12,7 @@ export default function Profile(){
         <div className="reseau">
        <a href="https://github.com/tahani-cherif"><BsGithub color="#2B7CD3" fontSize='2rem'  className="icon"/> </a> 
        <a href="https://www.linkedin.com/in/cherif-tahani-50815a214/"> <BsLinkedin color="#2B7CD3" fontSize='2rem'  className="icon"/> </a>
-       <a href="https://mail.google.com/mail/u/0/?pli=1#inbox?compose=new" ><SiGmail color="#2B7CD3" fontSize='2rem'  className="icon"/></a> 
+       <a href = "mailto:cheriftahani92@gmail.com"><SiGmail color="#2B7CD3" fontSize='2rem'  className="icon"/></a> 
        <a href="./cv tahani cherif.pdf" download> <MdPictureAsPdf color="#2B7CD3" fontSize='2rem'  className="icon"/></a>
         </div>
     </div>)

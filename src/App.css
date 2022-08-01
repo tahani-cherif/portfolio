@@ -51,4 +51,7 @@ body{
   .etudeexp{
     display: flow-root;
   }
+  footer{
+    width: 526px;
+  }
 }

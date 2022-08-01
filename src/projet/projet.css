@@ -35,10 +35,12 @@ img{
 .continue{
     display: flex;
     justify-content: space-between;
+    margin-left: -36px;
 }
 .formulaire{
     margin-right: 245px;
     margin-top: 13px;
+
 }
 input{
     border-radius: 4px;
@@ -91,5 +93,6 @@ button{
     }
     .pro{
         width:487px;
+        margin-top: 55px;
     }
   }

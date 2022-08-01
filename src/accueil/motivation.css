@@ -14,10 +14,12 @@
     margin-top: 70px;
     margin-left: 20px;
     margin-right: 20px;
+    margin-right: 20px;
 }
 @media (max-width: 768px){
    .acc{
     display: flow-root;
+    margin-right: 20px;
     }
     .motivation{
         width: 448px;

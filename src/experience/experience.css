@@ -16,7 +16,7 @@
     margin-left: 750px;
     width: 100%;
 }
-@media (max-width: 500px){
+@media (max-width: 768px){
     .exp{
         margin-left: -140px;
         width:487px;

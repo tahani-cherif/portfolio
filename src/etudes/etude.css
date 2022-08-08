@@ -27,7 +27,7 @@ ul{
     margin-bottom: -48px;
 }
 
-@media (max-width: 500px){
+@media (max-width: 768px){
     .etude{
         margin-left: -140px;
         width:487px;

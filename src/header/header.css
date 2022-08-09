@@ -16,7 +16,7 @@
 .link{
     color: #2B7CD3;
 }
-@media (max-width: 350px){
+@media (max-width: 768px){
     .navbar{
     margin-left: 0px;
     }

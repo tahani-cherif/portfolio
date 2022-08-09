@@ -11,7 +11,7 @@ margin-left: 20px;
     color: black;
 }
 
-@media (max-width: 350px){
+@media (max-width: 768px){
     .formulaire{
         margin-top: 422px;
     }

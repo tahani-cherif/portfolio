@@ -1,7 +1,17 @@
 .App {
   text-align: center;
 }
-
+.app{
+  position: absolute;
+}
+.test{
+  position:fixed;
+  background-color: #2B7CD3;
+    padding: 21px;
+    border-radius: 100px;
+    margin-left: 673px;
+    margin-top: 400px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

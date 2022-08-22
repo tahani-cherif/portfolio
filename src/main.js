@@ -7,11 +7,14 @@ import Experience from './experience/experience';
 import Footer from './footer/footer';
 import NavTabs from './header/header';
 import Mainprojet from './projet/projet';
+import ScrollButton from './scrollButton';
+
 
 
 function Main() {
   return (
-    <div className="App">
+    <>
+    <div className="app">
       <NavTabs/>
       <Accueil/>
       <Competence/>
@@ -23,8 +26,9 @@ function Main() {
       <Contact/>
       <Footer/>
       
-
     </div>
+    <ScrollButton className="test"/>
+     </>
   );
 }
 

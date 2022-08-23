@@ -36,6 +36,8 @@ export default function Mainprojet(){
             <div className='boxprojet'>
             <Projet src="./petshop.png" nom="Développement d'un site web marchand (Animalerie) avec Wix" taill="446px" 
             href="https://youtu.be/iJ2heZGCqvQ" colorgit='#808080' colorpdf='#808080' coloryout='#2B7CD3'/>
+             <Projet src="./formulaire.png" nom="Validation formulaire en React à l’aide de React Hook Form et Yup" taill="470px" 
+            git="https://github.com/tahani-cherif/Validation-formulaire-en-React-l-aide-de-React-Hook-Form-et-Yup" colorgit='#2B7CD3' colorpdf='#808080' coloryout='#808080'/>
             </div>
         </div>
     )

@@ -9,7 +9,7 @@ export default function Etude(){
             Ecole supérieure des sciences économiques et commerciales de Tunis
             </li>
             <div className="parg">
-            <p>Année 2021/2022</p>
+            <p>Année 2020/2022</p>
             <p>Licence Nationale en Business Computing spécialité E-Business</p>
             </div>
             <li id="lycee">

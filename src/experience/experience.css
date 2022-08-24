@@ -8,6 +8,26 @@
 .disc{
     text-align: justify;
 }
+.post{
+   display:flex;
+   justify-content: "start";
+   margin-left:298px
+}
+.logo{
+    width: 65px;
+    height: 69px;
+    margin-top: 21px;
+}
+.desc{
+    margin-left: -110px;
+}
+.liste{
+    margin-left: 115px;
+    margin-top: -42px;
+}
+.li{
+    color: black;
+}
 .exp{
     background-color: white;
     margin-top: 52px;

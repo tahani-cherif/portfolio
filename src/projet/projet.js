@@ -7,7 +7,7 @@ export default function Mainprojet(){
         <div className="pro" id="projet">
             <p className='titre'>Portfolio</p>
           <div className='ligne1' >
-           <Projet src='./youtube.png' nom='Clonage Youtube avec React js' git='https://github.com/tahani-cherif/projet-web' 
+           <Projet src='./youtube.png' nom='Clonage Youtube avec React js' git='https://github.com/tahani-cherif/Clone-Youtube-Reactjs' 
            pdf='./Clonage Youtube avec React.pdf' taill="458px" colorgit='#2B7CD3' colorpdf='#2B7CD3' coloryout='#808080' />
            <Projet src='./mobile.png' nom='Application mobile pour les nom voyant et malvoyant' taill="113px" 
            git='https://github.com/tahani-cherif/App-PFE' pdf='./Présentation-PFE.pdf' href="https://drive.google.com/file/d/165W64XhC0OBJYxIShiLm7h6D_b2qi7SV/view?usp=sharing"

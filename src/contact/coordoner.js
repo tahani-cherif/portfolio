@@ -16,11 +16,11 @@ export default function Coordoner(){
              </div>
              <div className='bloc'>
                  <AiFillLinkedin color='#2B7CD3'  font-size='33px'/>
-                 <a href='https://www.linkedin.com/in/cherif-tahani-50815a214/'><p className='textcorrdoner' id='link'>in/cherif-tahani</p></a>
+                 <a href='https://www.linkedin.com/in/tahani-cherif-50815a214/' target="_blank"><p className='textcorrdoner' id='link'>in/cherif-tahani</p></a>
              </div>
              <div className='bloc'>
                  <BsGithub color='#2B7CD3'  font-size='33px'/>
-                 <a href='https://github.com/tahani-cherif'><p className='textcorrdoner' id='link'>github.com/tahani-cherif</p></a>
+                 <a href='https://github.com/tahani-cherif' target="_blank"><p className='textcorrdoner' id='link'>github.com/tahani-cherif</p></a>
              </div>
              <div className='bloc'>
                  <BsTelephoneFill color='#2B7CD3'  font-size='33px'/>

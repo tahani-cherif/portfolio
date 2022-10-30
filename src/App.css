@@ -1,9 +1,9 @@
 .App {
   text-align: center;
 }
-.app{
+/* .app{
   position: absolute;
-}
+} */
 .buttons{
   position:fixed;
   background-color: #2B7CD3;

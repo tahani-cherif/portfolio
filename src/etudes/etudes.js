@@ -5,6 +5,13 @@ export default function Etude(){
         <div className='etude' id="etude">
            <p className="textetude">Etudes</p>
            <ul>
+           <li>
+           Ecole Supérieure Privée d'Ingénierie et de Technologies - ESPRIT
+            </li>
+            <div className="parg">
+            <p>Année 2022/2026</p>
+            <p>Cycle ingénieur</p>
+            </div>
             <li>
             Ecole supérieure des sciences économiques et commerciales de Tunis
             </li>

@@ -32,6 +32,12 @@ export default function Mainprojet(){
              taill="489px" colorgit='#2B7CD3' colorpdf='#808080' coloryout='#808080' git="https://github.com/tahani-cherif/D-veloppement-d-un-plan-de-d-cision-avec-pygrametl-ETL-python-et-power-BI"/>
             </div>
             <div className='boxprojet'>
+             <Projet src="./redux.png" nom="Application web avec React Js qui utilise redux and firebase comme base de données" taill="470px" 
+            git="https://github.com/tahani-cherif/Validation-formulaire-en-React-l-aide-de-React-Hook-Form-et-Yup" colorgit='#2B7CD3' colorpdf='#808080' coloryout='#808080'/>
+             <Projet src="./graphql.png" nom="Création une Application web avec React Js et Graphql" style={{marginTop: "-17px" }}
+             taill="473px" colorgit='#2B7CD3' colorpdf='#808080' coloryout='#808080' git="https://github.com/tahani-cherif/D-veloppement-d-un-plan-de-d-cision-avec-pygrametl-ETL-python-et-power-BI"/>
+            </div>
+            <div className='boxprojet'>
             <Projet src='./site.jpg' nom="Création d'une site web pour un club robotique d'enfant" taill="345px"
              pdf='php.pdf' href="https://youtu.be/09KtDCeutbM" git="https://github.com/tahani-cherif/Robotics-Club-WebSite-PHP"
              colorgit='#2B7CD3' colorpdf='#2B7CD3' coloryout='#2B7CD3'/>

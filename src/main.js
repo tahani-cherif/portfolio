@@ -25,11 +25,11 @@ function Main() {
       <Mainprojet/>
       <Contact/>
       <Footer/>
-      
     </div>
-    <ScrollButton className="test"/>
+ 
      </>
   );
 }
 
 export default Main;
+//   <ScrollButton className="test"/>
